@@ -11,21 +11,22 @@
     <h1>EARTH ANIMATION</h1>
 
     <div class="container">
-        <video id="animatedVideo" autoplay loop>
+        <video id="animatedVideo" autoplay loop muted>
             <source src="assets/earth.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
-        <audio id="backgroundAudio" autoplay loop>
-            <source src="/assets/earth-rotate sound.mp3" type="audio/mp3">
+        <audio id="backgroundAudio" loop>
+            <source src="assets/earth-rotate sound.mp3" type="audio/mp3">
             Your browser does not support the audio tag.
         </audio>
 
         <div class="controls">
-            <!-- <label for="speedControl">Speed:</label> -->
             <input type="range" id="speedControl" min="0" max="3" step="0.1" value="1">
             <span id="speedValue">1x</span>
         </div>
+
+        <button id="playSound">Play Sound</button>
     </div>
 
     <script src="script.js"></script>
