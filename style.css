@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black !important;  
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+input[type="range"] {
+    width: 80%;
+}
